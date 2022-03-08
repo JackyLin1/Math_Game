@@ -1,5 +1,3 @@
-require "./players"
-require "./questions"
 class Game
 
   def initialize (p1, p2)

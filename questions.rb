@@ -1,4 +1,4 @@
-require "./players"
+
 class Questions
 
   def initialize
@@ -13,13 +13,8 @@ class Questions
   def compareAnswer (userAnswer, currentPlayer)
     @correctAnswer = @num1 + @num2;
     
-    puts userAnswer == @correctAnswer ? 
+    userAnswer == @correctAnswer ? 
     "#{currentPlayer}: the answer is correct" : "#{currentPlayer}: Seriously? NO!"
-
-    # if (userAnswer != @correctAnswer) 
-    #   currentPlayer.loseLife
-    #   puts currentPlayer.lives
-    # end
 
   end
 
