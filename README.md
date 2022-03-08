@@ -35,7 +35,7 @@ Methods:
   def compareAnswer(player) if correctAnswer === userAnswer output message "player#{player}: the answer is correct" or "player#{player}: seriously NO!",  
   userAnswer= argV
 
-5. def initialize(player1, player2) @round = "P1: 3/3 vs P2: 3/3" print "----new turn ----", currentPlayer = player1
+5. def initialize(player1, player2) @roundScore = "P1: 3/3 vs P2: 3/3" print "----new turn ----", currentPlayer = player1
 While (gameEnd === false) {
 def game put "P1: 3/3 vs P2: 3/3" print "----new turn ----" 
 }

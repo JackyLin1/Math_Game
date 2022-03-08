@@ -1,9 +1,9 @@
 require "./players"
 require "./questions"
 require "./game"
-require "./answers"
 
-player1, player2 = argV
+
+player1, player2 = ARGV
 
 newGame = Game.new(player1, player2)
 
